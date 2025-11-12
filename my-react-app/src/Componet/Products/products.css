@@ -1,0 +1,88 @@
+.product-list-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.product-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  background-color: lab(94.12% 1.68 0.58);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.product-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.product-item:hover img {
+  opacity: 1;
+}
+
+.product-overlay {
+  position: absolute;
+  inset: 0;
+  background: #b9b7b7a6;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.product-item:hover .product-overlay {
+  background: transparent;
+}
+
+.product-overlay h3 {
+  margin: 10px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-item:hover .product-overlay h3 {
+  opacity: 1;
+}
+
+.product-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-item:hover .product-icons {
+  opacity: 1;
+}
+
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.cart-icon {
+  color: #00b894; /* greenish */
+}
+
+.fav-icon {
+  color: #ff4757; /* red */
+}
