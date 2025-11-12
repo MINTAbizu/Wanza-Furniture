@@ -50,3 +50,30 @@
     justify-content: space-between;
     padding-bottom: 15px;
 }
+
+.second-row{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px;
+
+}
+.timeless{
+    padding: 25px;
+    display: flex;
+}
+.View{
+     padding: 14px;
+    width: 150px;
+   
+}
+.View{
+     padding: 14px;
+    width: 150px;
+    background-color:  hwb(34 16% 31%);
+    color: white;
+}
+.View:hover{
+    background-color: white;
+    color: coral;
+}

@@ -29,22 +29,50 @@ function Timelessproduct() {
                     </div>
                     <div className="timeless-note">
                         <div className="first-row">
-                            <div className="timeless">
-                                 <p>Time less Dessign</p>
+                              <div className="timeless">
+                                        <div><i>icon</i></div>
+                                <div> <p>Time less Dessign</p></div>
                             </div>
-                            <div className="timeless">
-                                 <p>Time less Dessign</p>
+                              <div className="timeless">
+                                          <div><i>icon</i></div>
+                                <div> <p>Time less Dessign</p></div>
                             </div>
-                            <div className="timeless">
-                                 <p>Time less Dessign</p>
+                              <div className="timeless">
+                                         <div><i>icon</i></div>
+                                <div> <p>Time less Dessign</p></div>
                             </div>
                         </div>
-                         <div className="second-row">
-                          <div className="timeless">
-                                 <p>Time less Dessign</p>
+                        <div className="first-row">
+                              <div className="timeless">
+                                        <div><i>icon</i></div>
+                                <div> <p>Time less Dessign</p></div>
                             </div>
-                            
+                              <div className="timeless">
+                                          <div><i>icon</i></div>
+                                <div> <p>Time less Dessign</p></div>
+                            </div>
+                              <div className="timeless">
+                                         <div><i>icon</i></div>
+                                <div> <p>Time less Dessign</p></div>
+                            </div>
                         </div>
+                        <div className="first-row">
+                              <div className="timeless">
+                                        <div><i>icon</i></div>
+                                <div> <p>Time less Dessign</p></div>
+                            </div>
+                              <div className="timeless">
+                                          <div><i>icon</i></div>
+                                <div> <p>Time less Dessign</p></div>
+                            </div>
+                              <div className="timeless">
+                                         <div><i>icon</i></div>
+                                <div> <p>Time less Dessign</p></div>
+                            </div>
+                        </div>
+                       <div className="btn">
+                        <button className='View'>ViewMore</button>
+                       </div>
                       
 
                     </div>
