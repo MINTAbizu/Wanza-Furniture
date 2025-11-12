@@ -57,7 +57,7 @@ img{
 .view{
     padding: 14px;
     width: 150px;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     border-left-style: double;
 }
 .learn{
@@ -71,7 +71,7 @@ img{
     background-color: white;
     color: #e20f0f;
     transition:  transform ease-in 0.5;
-    transform: translateX(1px);
+    transform: translateX(10px);
 }
 .view:hover{
      transform: translateX(10px);

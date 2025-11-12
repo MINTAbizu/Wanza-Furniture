@@ -52,7 +52,7 @@ function Timelessproduct() {
                                 <div> <p>Time less Dessign</p></div>
                             </div>
                               <div className="timeless">
-                                         <div><i>✅ </i></div>
+                                         <div><i>icon</i></div>
                                 <div> <p>Time less Dessign</p></div>
                             </div>
                         </div>

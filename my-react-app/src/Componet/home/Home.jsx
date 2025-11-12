@@ -27,7 +27,7 @@ function Home() {
                             <button className='view'>View</button>
                         </div>
                         <div className="leran-btn">
-                            <button className='learn'>Leanr-More</button>
+                            <button className='learn'>Lear-More</button>
                         </div>
                     </div>
                     </div>

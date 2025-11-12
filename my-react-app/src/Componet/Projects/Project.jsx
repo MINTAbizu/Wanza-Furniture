@@ -1,27 +1,31 @@
 import React from 'react';
 import './Projects.css';
-import sofa from '../../assets/image/sofa1731948627.jpg';
+import sofa from '../../assets/image/core-img/sofa.jpg';
+import tabel from '../../assets/image/core-img/officetabel.jpg';
+import dain from '../../assets/image/core-img/sofa.jpg';
+import bed from '../../assets/image/core-img/sofa.jpg';
+
 function Project() {
   const projectdata = [
     {
       name: 'Bed',
-      image:sofa,
+      image:bed,
     //   image: 'https://images.unsplash.com/photo-1616627562237-6eec08d2f74f?auto=format&fit=crop&w=800&q=80',
       description: 'Elegant wooden bed designed for comfort and durability.',
     },
     {
       name: 'Office Table',
-      image: 'https://images.unsplash.com/photo-1598300053650-8d2a9b7ab253?auto=format&fit=crop&w=800&q=80',
+      image: tabel,
       description: 'Modern office table with minimalistic design and strong build.',
     },
     {
       name: 'Large Sofa',
-      image: 'https://images.unsplash.com/photo-1616627459505-4d6e4fdd8cf1?auto=format&fit=crop&w=800&q=80',
+      image:sofa,
       description: 'Spacious and soft sofa perfect for your living room.',
     },
     {
       name: 'Dining Table',
-      image: 'https://images.unsplash.com/photo-1615874959474-d609969a8b88?auto=format&fit=crop&w=800&q=80',
+      image:dain,
       description: 'Beautiful dining table that brings the family together.',
     },
   ];
