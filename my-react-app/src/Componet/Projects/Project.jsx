@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css';
+// import './Projects.css';
 import sofa from '../../assets/image/core-img/sofa.jpg';
 import tabel from '../../assets/image/core-img/officetabel.jpg';
 import dain from '../../assets/image/core-img/sofa.jpg';
