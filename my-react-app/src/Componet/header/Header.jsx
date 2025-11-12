@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Header.css';
+// import './Header.css';
 import { FaBars, FaTimes, FaShoppingCart, FaHeart } from 'react-icons/fa';
 
 function Header() {
