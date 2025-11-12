@@ -44,7 +44,7 @@ img{
      position: relative;
 }
 .detail-descrption{
-    /* color: white; */
+    color: white;
 }
 .left-btn{
     display: flex;
@@ -57,22 +57,24 @@ img{
 .view{
     padding: 14px;
     width: 150px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     border-left-style: double;
 }
 .learn{
     padding: 14px;
     width: 150px;
+    background-color:  hwb(34 16% 31%);
+    color: white;
 
 }
 .learn:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #e20f0f;
     transition:  transform ease-in 0.5;
-    transform: translateX(10px);
+    transform: translateX(1px);
 }
 .view:hover{
      transform: translateX(10px);
-     border-radius: 2px solid black;
+     /* border-radius: 2px solid black; */
 
 }
