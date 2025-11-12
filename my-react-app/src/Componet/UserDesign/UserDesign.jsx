@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './user.css';
+// import './user.css';
 
 function UserDesign() {
   const [uploadedImages, setUploadedImages] = useState([]);

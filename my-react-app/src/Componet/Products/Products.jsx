@@ -1,5 +1,5 @@
 import React from 'react';
-import './Products.css';
+// import './Products.css';
 import { FaShoppingCart, FaHeart } from 'react-icons/fa';
 
 // sample images
