@@ -6,6 +6,8 @@ import Products from './Componet/Products/Products'
 import About from './Componet/About/About'
 import Project from './Componet/Projects/Project'
 import UserDesign from './Componet/UserDesign/UserDesign'
+import Guidance from './Componet/Guiddance/Guidance'
+import Footer from './Componet/footer/Footer'
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 // import 'bootstrap-icons/font/bootstrap-icons.css'
@@ -19,6 +21,8 @@ function App() {
       <About/>
       <Project/>
       <UserDesign/>
+      <Guidance/>
+      <Footer/>
       
     </div>
   )

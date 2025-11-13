@@ -1,0 +1,113 @@
+.guidance-section {
+  background-color: #fff;
+  padding: 50px 20px;
+}
+
+.guidance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  background-color: hwb(34 16% 31%);
+  padding: 20px;
+}
+
+.guidance-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.guidance-left h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.guidance-left p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.guidance-right {
+  flex: 1;
+  min-width: 320px;
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.guidance-form .form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f57c00;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #e36b00;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .guidance-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guidance-right {
+    width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}
