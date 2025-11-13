@@ -8,6 +8,7 @@ import Project from './Componet/Projects/Project'
 import UserDesign from './Componet/UserDesign/UserDesign'
 import Guidance from './Componet/Guiddance/Guidance'
 import Footer from './Componet/footer/Footer'
+import AutoScrollLogos from './Componet/AutoScrollLogos/AutoScrollLogos'
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 // import 'bootstrap-icons/font/bootstrap-icons.css'
@@ -16,6 +17,7 @@ function App() {
     <div>
       <Header/>
       <Home/>
+      <AutoScrollLogos/>
       <Timelessproduct/>
       <Products/>
       <About/>
