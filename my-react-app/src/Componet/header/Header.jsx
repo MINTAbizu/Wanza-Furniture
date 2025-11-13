@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { FaBars, FaTimes, FaShoppingCart, FaHeart } from 'react-icons/fa';
-
+import logo1 from "../../assets/image/core-img/logo.png"
+// import { Link } from 'lucide-react';
+import { Link } from 'react-router';
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -9,14 +11,16 @@ function Header() {
 
   return (
     <header className="header">
-      <div className="logo">Wanza Furniture</div>
+      <div className="logo"><img src=
+      {logo1} alt="" /></div>
 
       <nav className={`nav ${menuOpen ? 'active' : ''}`}>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><Link to={'/'}>Home</Link></li>
+          <li><Link to={'/projects'}>Projects</Link></li>
+          <li><Link to={"/about"}>About</Link></li>
+          <li><Link to={"/UserDesign"}>UserDesign</Link></li>
+          <li><Link to={"/products"}>products</Link></li>
         </ul>
       </nav>
 
