@@ -1,0 +1,86 @@
+.internal-container{
+    display: flex;
+    justify-content: space-between;
+        margin-bottom: 200px;
+}
+
+
+.left-front-img {
+    width: 500px;
+    height: 100%;
+    justify-content: center;
+    margin: 100px;
+    margin-right: -650px;
+    margin-bottom: 450px;
+
+}
+.left-all{
+    margin-bottom: 100px;
+}
+.left-front-img img{
+     width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: 100px;
+    padding-left: 180px;
+}
+.left-back{
+    background-image: url('../../assets//image/bg-img/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 550px;
+
+}
+
+/* right side */
+.right-container{
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 130px;
+}
+.riht-title{
+    font-size: 28px;
+    padding-bottom: 18px;
+}
+.descrption{
+    padding: 18px;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.second-row{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px;
+
+}
+.timeless{
+    padding: 25px;
+    display: flex;
+}
+.View{
+     padding: 14px;
+    width: 150px;
+    /* border-radius: 10px; */
+    border-left-style: double;
+}
+.View{
+     padding: 14px;
+    width: 150px;
+    background-color:  hwb(34 16% 31%);
+    color: white;
+}
+.View:hover{
+    background-color: white;
+    color: coral;
+}

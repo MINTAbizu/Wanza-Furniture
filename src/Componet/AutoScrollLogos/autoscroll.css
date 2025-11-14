@@ -1,0 +1,41 @@
+.logo-slider {
+  overflow: hidden; /* hide logos outside container */
+  background-color: #fff8f0; /* optional coffee background */
+  padding: 20px 0;
+}
+
+.logo-track {
+  display: flex;
+  gap: 50px;
+  animation: scroll 20s linear infinite; /* automatic continuous scroll */
+}
+
+.logo-track img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.logo-track img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Keyframes for smooth right-to-left scroll */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* scroll half the track width */
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logo-track img {
+    width: 80px;
+  }
+}

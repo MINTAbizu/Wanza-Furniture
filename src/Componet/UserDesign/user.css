@@ -1,0 +1,78 @@
+.user-design-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.user-design-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-design-section p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.upload-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.upload-controls input[type="file"] {
+  padding: 5px;
+}
+
+.upload-controls button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.upload-controls button:hover {
+  background-color: #0056b3;
+}
+
+.upload-controls button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.uploaded-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.uploaded-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.uploaded-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.uploaded-item:hover img {
+  transform: scale(1.05);
+}
+
+.uploaded-item p {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+}
